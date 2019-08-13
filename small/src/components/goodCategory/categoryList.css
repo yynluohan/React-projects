@@ -1,0 +1,9 @@
+
+.typeItemNameStyle {
+  margin: 0 1em;
+  cursor:pointer;
+}
+
+.typeItemNameStyle:hover {
+  color:#523669;
+}

@@ -1,0 +1,70 @@
+.container {
+  padding: 0 10%;
+  height:140px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.05);
+  margin-bottom: 0.6em;
+  padding-bottom: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-color: #fff;
+}
+
+.topStyle {
+   margin-top: 1.6em;
+   display:flex;
+   justify-content: space-between;
+   flex:1;
+}
+
+.logo {
+  /* width:239px; */
+  height:80px;
+}
+
+.searchInput {
+  width:calc(100% - 50px);
+  height: 35px;
+  padding-left: 10px;
+  color: #bbb;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.searchBtn {
+  display: inline-block;
+  width: 35px;
+  height: 39px;
+  border:1px solid #aeabab;
+  border-left:none;
+  vertical-align: middle;
+  background: url(http://static4.biyao.com/pc/common/img/master/search.png?v=biyao_2e92562) center center no-repeat;
+  cursor: pointer;
+}
+
+.typeName {
+  font-size: 12px;
+  color:#333;
+  margin-right: 0.65em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.typeName:hover {
+  color:#f7b200;
+}
+
+.navItem {
+  margin-right:2.5em;
+}
+
+.navItemName {
+  margin-right: 2.5em;
+  color:#000;
+  cursor:pointer;
+  position: relative;
+}
+
+.navItemName:hover {
+  color:#6744AC;
+}

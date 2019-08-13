@@ -1,0 +1,27 @@
+.grayColor {
+  color: #666;
+}
+
+.numberColor {
+  color: #f7b200;
+}
+
+.trigon::before {
+  display: block;
+  content: '';
+  width: 13px;
+  height: 13px;
+  background-color: #fff;
+  position: absolute;
+  transform: rotate(45deg);
+  top: -6px;
+  margin-left: 1em;
+}
+
+.innerHtmlStyle {
+  
+}
+
+.innerHtmlStyle img {
+  width:100%;
+}
