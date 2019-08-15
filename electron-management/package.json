@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "main": "main.js",
+  "version": "0.1.0",
+  "homepage": ".",
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint",
+    "electron-start": "electron .",
+    "package": "electron-packager ~/knownsec-fed/build knownsec-fed --all --out ~/ --v5.0.6"
+  },
+  "dependencies": {
+    "antd": "^3.19.5",
+    "dva": "^2.4.1",
+    "electron": "^5.0.6",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-loadable": "^5.5.0",
+    "zero-element": "^1.0.0-beta.11",
+    "zero-element-antd": "github:kequandian/zero-element-antd",
+    "zero-element-global": "github:kequandian/zero-element-global"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "electron-packager": "^14.0.1",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.5.0-beta.4"
+  }
+}

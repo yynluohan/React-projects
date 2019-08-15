@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  height:100vh;
+  align-items: center;
+}
+
+.content {
+  width: 550px;
+  height: 550px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2em;
+}
+
+.top span {
+  color:#FF9800;
+  cursor: pointer;
+}
+
+
+.but {
+  background-color: #fe7300;
+  width:70%;
+  padding: 0.5em 0;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 2em 0;
+}
+
+.but:active {
+  background-color: #e38231;
+}
+
+
+.applyResult {
+  width:70%;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.applyResult span {
+  color: red;
+}

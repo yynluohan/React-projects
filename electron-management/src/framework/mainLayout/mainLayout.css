@@ -1,0 +1,48 @@
+.header {
+  width:100%;
+  height: 64px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:999;
+  padding: 0 1em;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 45px;
+  height:45px;
+  margin-right: 0.5em;
+}
+
+.content {
+  padding: 1em 0;
+}
+
+.content main {
+  width:100%;
+}
+
+.siderStyle {
+  width: 200px;
+  overflow: hidden;
+  position: fixed;
+  background-color:#000;
+  /* overflow-y:auto; */
+  height: calc(100vh - 80px);
+}
+
+.siderStyle .ant-layout-sider.ant-layout-sider-dark {
+  width: 220px!important;
+  max-width: 220px!important;
+}
